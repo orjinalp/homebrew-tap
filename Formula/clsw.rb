@@ -2,23 +2,23 @@
 class Clsw < Formula
   desc "Claude Code profilleri arasında hesap değiştirme, limit ve maliyet görüntüleme"
   homepage "https://github.com/orjinalp/clsw"
-  version "1.2.2"
+  version "1.3.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/orjinalp/clsw/releases/download/v1.2.2/clsw-macos-arm64.tar.gz"
-      sha256 "43d039a87772eddd3973412cc85d687d873b291cf518a10e9ae84e6d80d76ad5"
+      url "https://github.com/orjinalp/clsw/releases/download/v1.3.0/clsw-macos-arm64.tar.gz"
+      sha256 "6f11daf369db0e07c04ca928cf0df9c9de630a01f612ced0dd198eebf7af966d"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/orjinalp/clsw/releases/download/v1.2.2/clsw-linux-x64.tar.gz"
-      sha256 "fc399829ab564a7b71539e8e489071ea8e93f5290ec6e98f610e5f1cfac1cb64"
+      url "https://github.com/orjinalp/clsw/releases/download/v1.3.0/clsw-linux-x64.tar.gz"
+      sha256 "917b85f2c7ae79212ab57a23f717df14dfa1bdbd1ed8eb25a4f89960713d02a6"
     end
     on_arm do
-      url "https://github.com/orjinalp/clsw/releases/download/v1.2.2/clsw-linux-arm64.tar.gz"
-      sha256 "3143b73299b7fc4ebd24407b3513f25a42b71300ef7ceb2eb573eafd85e16630"
+      url "https://github.com/orjinalp/clsw/releases/download/v1.3.0/clsw-linux-arm64.tar.gz"
+      sha256 "e20703bff24eee93977dabaf7b92932cb38a6d3a7f0e706c2cb54ce861f90708"
     end
   end
 
